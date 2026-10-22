@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply flex min-h-[52px] w-full items-center justify-center gap-2 rounded-2xl bg-sky-600 px-5 text-base font-semibold text-white shadow-sm transition hover:bg-sky-500 active:scale-[0.99] disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply flex min-h-[52px] w-full items-center justify-center gap-2 rounded-2xl border border-slate-300 bg-white px-5 text-base font-semibold text-slate-800 transition hover:bg-slate-100 active:scale-[0.99] disabled:opacity-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800;
+  }
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900;
+  }
+  .section-title {
+    @apply mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400;
+  }
+}

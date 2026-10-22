@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://billcheck.doaide.com/sitemap.xml

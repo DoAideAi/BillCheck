@@ -1,0 +1,10 @@
+{
+  "name": "BillCheck by DoAide",
+  "short_name": "BillCheck",
+  "description": "Scan a bill and verify line totals, GST and the total.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
